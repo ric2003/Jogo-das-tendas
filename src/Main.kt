@@ -265,7 +265,7 @@ fun contaTendasLinha(terreno: Array<Array<String?>>, linha: Int): Int {
     }
     var count = 0
     for(linhas in 0 until terreno[linha].size){
-        if(terreno[linha][linhas]=="A") {
+        if(terreno[linha][linhas]=="T") {
             count++
         }
     }
